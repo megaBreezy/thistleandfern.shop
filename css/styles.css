@@ -1,0 +1,30 @@
+body {
+  background-color: #000;
+}
+
+body::after {
+  background: url("../assets/images/flowershop-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  content: "";
+  position: absolute;
+  opacity: 0.25;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.masthead .nav {
+  font-size: 2rem;
+  position: relative;
+  z-index: 3;
+}
+
+a:active, a:hover {
+  color: #D7DF23;
+}
+
+footer {
+  z-index: 2;
+}
