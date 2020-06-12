@@ -1,14 +1,25 @@
+a {
+  color: #FBE39F;
+}
+
+a:active, a:hover {
+  color: #D7B014;
+}
+
 body {
-  background-color: #111202;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(251,227,159,0.5) 35%, rgba(251,227,159,0.5) 82%, rgba(0,0,0,0.2) 100%);
 }
 
 body::after {
   background: url("../assets/images/flowershop-bg.jpg");
   background-position: center center;
   background-size: cover;
+  inset 0 0 5rem rgba(88, 73, 55, .75);
   content: "";
   position: absolute;
-  opacity: 0.25;
+  opacity: 0.5;
+  text-shadow: 0 .05rem .1rem rgba(88, 73, 55, .5);
   top: 0;
   left: 0;
   bottom: 0;
@@ -21,10 +32,16 @@ body::after {
   z-index: 3;
 }
 
-a:active, a:hover {
-  color: #D7DF23;
+main {
+  background-color: #9da88e;
+  border-radius: 50%;
+  box-shadow: 0 .25rem 0.3rem rgba(88, 73, 55, .5);
+  padding: 10px 30px 60px!important;
+  position: relative;
+  z-index: 3;
 }
 
-footer {
+.mastfoot {
+  color: #FFF;
   z-index: 2;
 }
