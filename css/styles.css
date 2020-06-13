@@ -21,7 +21,6 @@ body::after {
   background: url("../assets/images/flowershop-bg.jpg");
   background-position: center center;
   background-size: cover;
-  inset 0 0 5rem rgba(88, 73, 55, .75);
   content: "";
   position: absolute;
   opacity: 0.5;
