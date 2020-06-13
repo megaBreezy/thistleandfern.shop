@@ -6,6 +6,11 @@ a:active, a:hover {
   color: #D7B014;
 }
 
+html,
+body {
+  min-height: 500px;
+}
+
 body {
   background: rgb(0,0,0);
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(251,227,159,0.5) 35%, rgba(251,227,159,0.5) 82%, rgba(0,0,0,0.2) 100%);
@@ -25,6 +30,7 @@ body::after {
   left: 0;
   bottom: 0;
   right: 0;
+  min-height: 500px;
 }
 
 .masthead .nav {
